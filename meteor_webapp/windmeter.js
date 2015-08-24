@@ -22,7 +22,7 @@ if (Meteor.isServer) {
          }));
      });
 
-    SparkApi.login({accessToken: '2e8e794a11c1c71a9b8246f9fa6df9ec58dece37'});
+    SparkApi.login({accessToken: 'your-access-token'});
 
   });
 };
