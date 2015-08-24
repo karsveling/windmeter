@@ -1,0 +1,16 @@
+<head>
+  <title>Wind speed at Kars Holiday Home</title>
+</head>
+
+<body>
+
+  {{>windSpeed}}
+
+</body>
+
+<template name="windSpeed">
+  <div align="center" style="font-family:arial; font-size:200pt; width:100%; height:100%: text-align:center; margin-top:50; padding-top:100pt">
+    <div style="">{{currentSpeed}}<span style="font-size:20%">m/s</span></div>
+    <div style="font-size:50%; color:#808080">{{currentBft}} <span style="font-size:20%">Beaufort</span></div>
+  </div>
+</template>
